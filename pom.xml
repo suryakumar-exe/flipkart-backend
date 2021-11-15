@@ -14,8 +14,9 @@
 	<name>Flipkart</name>
 	<description>Demo project for flipkart Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
-	</properties>
+ <maven.compiler.source>1.8</maven.compiler.source>
+ <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
