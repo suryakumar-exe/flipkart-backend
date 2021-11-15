@@ -13,10 +13,15 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Flipkart</name>
 	<description>Demo project for flipkart Spring Boot</description>
-	<properties>
+<properties>
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
  <maven.compiler.source>1.8</maven.compiler.source>
  <maven.compiler.target>1.8</maven.compiler.target>
+		<java.version>11</java.version>
+	
 </properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -70,8 +75,11 @@
 					</processTypes>
 				</configuration>
 			</plugin>
-
-		
+			
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
 		</plugins>
 	</build>
 	
